@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect, useRef } from 'react';
 import { QRCode } from 'react-qrcode-logo';
 import SuccessMessage from './Successalert';
@@ -137,7 +136,8 @@ const QRCodeComponent = ({ value, logoUrl, isLoggedIn }) => {
       background: none;
       border: none;
       font-size: 30px;
-      cursor: pointer;
+      cursor:
+      pointer;
     }
 
     .modal-actions {
